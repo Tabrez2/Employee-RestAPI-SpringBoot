@@ -9,4 +9,5 @@ import lombok.Data;
 public class ResponseStructure<T> {
   String msg;
   T data;
+  int statusCode;
 }
